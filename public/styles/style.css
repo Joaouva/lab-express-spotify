@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(164,164,164,1) 100%); 
+font-family: roboto;
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/images/spotify-background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+}
+
+#homepage button {
+    background-color: rgb(255,102,102);
+    color: white;
+    height: 40px;
+    width: 180px;
+    margin-top: 10px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 115px;
+    outline: none;
+    
+}
+
+#search-homepage {
+    background-color: rgba(255,255,255, 0.5);
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#search-bar {
+    width: 400px;
+    border-radius: 25px;
+    border: none;
+    height: 30px;
+    outline: none;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#album-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+#album-container img {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255,255,255, 0.5)
+}
+
+#album-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#text-album {
+    background-color: rgb(77,77,77);
+    color: white;
+    text-align: center;
+}
+
+#text-album p {
+    font-weight: 900;
+    font-size: 25px;
+    padding: 0px;
+    width: 300px;
+    height: 40px;
+    font-family: Roboto;
+}
+
+#text-album button {
+    background-color: rgb(255,102,102);
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-radius: 3px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#text-album a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
