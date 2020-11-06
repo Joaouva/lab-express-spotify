@@ -1,0 +1,13 @@
+<h1>Tracks</h1>
+<div class="row-tracks">
+  {{#each tracks}}
+    <div class="col-md-12">
+      <ul class="list-group list-group-horizontal-lg">
+        <li class="list-group-item">
+          <h5>{{name}}</h5>
+          <audio controls src="{{preview_url}}"></audio>
+        </li>
+      </ul>
+    </div>
+  {{/each}}
+</div>
